@@ -1,27 +1,31 @@
 header {
-    height: 138px;
-    background-color: var(--background-tertiary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 38px 48px;
+  height: 138px;
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 38px 48px;
 }
 
 .navegacao-menu {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .logo_img {
-    width: 68px;
-    height: 68px;
+  width: 68px;
+  height: 68px;
 }
 
 .logo {
-    width: 68px;
-    height: 68px;
-    display: inline-block;
+  width: 68px;
+  height: 68px;
+  display: inline-block;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
 }
 
 nav {
-    display: none;
+  display: none;
 }
